@@ -1,6 +1,6 @@
 # Projeto Pizzaria
 
-Projeto desenvolvido como parte do curso de desenvolvimento web ministrado pelo Professor Edson Maia, com modificações e conclusão realizadas por [Seu Nome].
+Projeto desenvolvido como parte do curso de desenvolvimento web ministrado pelo Professor Edson Maia, com modificações e conclusão realizadas por Matheus Patricio.
 
 ## Descrição
 
