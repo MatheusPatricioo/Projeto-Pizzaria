@@ -16,7 +16,7 @@ let pizzaJson = [
     id: 2,
     name: 'Pão de Açúcar',
     img: 'images/pizza2.png',
-    price: [21.00, 24.00, 26.00], // Preços para diferentes tamanhos de pizza
+    price: [21.00, 24.00, 26.00], // Preços para diferentes tamanhos de pizza!!!
     sizes: [
       '6 fatias',
       '8 fatias',
