@@ -379,28 +379,4 @@ const finalizarPedido = () => {
 }
 
 finalizarPedido();
-
-
-finalizarPedido();
-
-
-finalizarPedido();
-
-finalizarPedido();
-
-
-finalizarPedido();
-
-
-finalizarPedido();
-
-
-finalizarPedido();
-
-
-finalizarPedido();
-
-
-// aula 06
-finalizarPedido();
 // /aula 06
