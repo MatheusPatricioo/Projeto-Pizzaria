@@ -1,97 +1,112 @@
+/* Importa as fontes Hepta Slab e Lato do Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap');
 
+/* Define o box-sizing como border-box para incluir padding e border no tamanho total do elemento */
 * {
     box-sizing: border-box;
 }
 
+/* Estilos para o body */
 body {
+    /* Define o fundo como verde claro */
     background-color: #d3f3dc; /* Verde claro */
+    /* Define as fontes padrão */
     font-family: 'Lato', Helvetica, Arial;
     font-size: 15px;
     display: flex;
     margin: 0;
-    min-height: 100vh;
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
 }
 
+/* Classe 'models' - usada para ocultar elementos */
 .models {
     display: none;
 }
 
+/* Estilos para o header */
 header {
-    position: fixed;
+    position: fixed; /* Fixa o cabeçalho no topo da página */
     left: 0;
     top: 0;
     right: 0;
-    height: 60px;
-    background-color: #4caf50;
+    height: 60px; /* Define a altura do cabeçalho */
+    background-color: #4caf50; /* Define a cor de fundo */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Alinha os itens ao espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
+/* Estilos para o título do header */
 header h1 {
-    margin-left: 1rem;
-    color: #fff;
+    margin-left: 1rem; /* Margem à esquerda */
+    color: #fff; /* Cor do texto */
 }
 
+/* Estilos para o botão de menu */
 .menu-openner {
-    margin-right: 15px;
-    font-size: 26px;
-    background-color: #81c784;
-    padding: 5px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-right: 15px; /* Margem à direita */
+    font-size: 26px; /* Tamanho da fonte */
+    background-color: #81c784; /* Cor de fundo */
+    padding: 5px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Raio da borda */
+    cursor: pointer; /* Cursor ao passar por cima */
 }
 
 .menu-openner span {
-    margin-right: 10px;
+    margin-right: 10px; /* Margem à direita */
 }
 
 .menu-closer {
-    width: 32px;
-    height: 32px;
-    display: none;
-    font-size: 30px;
+    width: 32px; /* Largura */
+    height: 32px; /* Altura */
+    display: none; /* Oculta por padrão */
+    font-size: 30px; /* Tamanho da fonte */
 }
 
+/* Estilos para a barra lateral */
 aside {
-    background-color: #aed581;
-    width: 0vw;
-    font-family: 'Hepta Slab', Helvetica, Arial;
-    transition: all ease .2s;
-    overflow-x: hidden;
+    background-color: #aed581; /* Cor de fundo */
+    width: 0vw; /* Largura inicial */
+    font-family: 'Hepta Slab', Helvetica, Arial; /* Fonte */
+    transition: all ease .2s; /* Transição suave */
+    overflow-x: hidden; /* Oculta o overflow horizontal */
 }
 
 aside.show {
-    width: 30vw;
+    width: 30vw; /* Largura quando visível */
 }
 
+/* Estilos para a área do carrinho */
 .cart--area {
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 30px; /* Margem superior */
+    padding: 20px; /* Espaçamento interno */
 }
 
 .cart--area h1 {
-    display: relative;
+    display: relative; /* Define como bloco relativo */
 }
 
+/* Estilos para o conteúdo principal */
 main {
-    flex: 1;
-    padding: 20px;
-    margin-top: 60px;
+    flex: 1; /* Flex-grow: 1 */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 60px; /* Margem superior */
 }
 
+/* Estilos para títulos h1 e h2 */
 h1,
 h2 {
     font-family: 'Hepta Slab', Helvetica, Arial;
     text-align: center;
 }
 
+/* Estilos para a área de exibição das pizzas */
 .pizza-area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+/* Estilos para os itens de pizza */
 .pizza-item {
     text-align: center;
     max-width: 250px;
@@ -156,6 +171,7 @@ h2 {
     margin-top: 10px;
 }
 
+/* Estilos para a área de exibição da janela de detalhes da pizza */
 .pizzaWindowArea {
     position: fixed;
     left: 0;
@@ -320,6 +336,7 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* Estilos para o carrinho */
 .cart {
     margin-bottom: 20px;
 }
@@ -400,6 +417,7 @@ h2 {
     background-color: #388e3c;
 }
 
+/* Media queries para ajustes responsivos */
 @media (max-width: 1000px) {
     .pizza-area {
         grid-template-columns: repeat(2, 1fr);
@@ -499,6 +517,7 @@ h2 {
     }
 }
 
+/* Estilos para o logotipo */
 #img-logo {
     width: 50px;
 }
