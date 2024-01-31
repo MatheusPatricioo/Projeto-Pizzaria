@@ -29,6 +29,10 @@ O projeto da Pizzaria da Nonna é uma aplicação web para simular um sistema de
 
 Professor Edson Maia, com modificações e conclusão realizadas por Matheus Patricio.
 
+## Screenshots
+
+![Screenshot do Gerador de Senhas](img/screen.png)
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
