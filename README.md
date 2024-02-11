@@ -31,7 +31,7 @@ Professor Edson Maia, com modificações e conclusão realizadas por Matheus Pat
 
 ## Screenshots
 
-![Screenshot do Gerador de Senhas](img/screen.png)
+![Screenshot do Gerador de Senhas](images/print.png)
 
 ## Licença
 
